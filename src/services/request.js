@@ -18,4 +18,3 @@ const request = (url, method, body) => {
 
 export const post = (url, body) => request(url, 'POST', body);
 export const get = url => request(url, 'GET');
-
